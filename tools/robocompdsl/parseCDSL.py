@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-from pyparsing import Word, alphas, alphanums, nums, OneOrMore, CharsNotIn, Literal, Combine
-from pyparsing import cppStyleComment, Optional, Suppress, ZeroOrMore, Group, StringEnd, srange
-from pyparsing import nestedExpr, CaselessLiteral, CaselessKeyword, ParseBaseException 
+from py-pyparsing import Word, alphas, alphanums, nums, OneOrMore, CharsNotIn, Literal, Combine
+from py-pyparsing import cppStyleComment, Optional, Suppress, ZeroOrMore, Group, StringEnd, srange
+from py-pyparsing import nestedExpr, CaselessLiteral, CaselessKeyword, ParseBaseException 
 
 import sys, traceback, os
 
